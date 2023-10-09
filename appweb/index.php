@@ -44,15 +44,15 @@
 				<div id="signinMessage"></div> <!--Mensaje-->
 				<div class="form-group">
 					<label for="nombre">Ingresa tu nombre</label>
-					<input type="text" class="form-control" id="nombre" name="nombre" required>
+					<input type="text" class="form-control" id="nombre" name="nombre" maxlength="20" required>
 				</div>
 				<div class="form-group">
 					<label for="appat">Ingresa tu apellido paterno</label>
-					<input type="text" class="form-control" id="appat" name="appat" required>
+					<input type="text" class="form-control" id="appat" name="appat"  maxlength="30" required>
 				</div>
 				<div class="form-group">
 					<label for="usuario">Ingresa tu nombre de usuario</label>
-					<input type="text" class="form-control" id="usuario" name="usuario" required>
+					<input type="text" class="form-control" id="usuario" name="usuario" maxlength="10" onkeyup="sin_espacio(this);" required>
 					<div id="msgUseralert"></div>
 					<!-- <h6 id="msgUseralert" style="color: red; font-size:13px"> </h6> Msg de alertaa -->
 				</div>
@@ -93,6 +93,12 @@
 	<script src="vendor/bootbox/bootbox.min.js"></script>
 	<script src="js/scripts.js"></script>
 	-->	
-	<script src="js/login.js"></script>  </body>
-	<script src="js/newRegister.js"></script>  </body>
+	<script src="js/login.js"></script>  
+	<script src="js/newRegister.js"></script>  
+	<script>
+		function sin_espacio(e){
+			e.value = e.value.replace(/ /g,'');
+		}
+	</script> 
+</body>
 </html>
