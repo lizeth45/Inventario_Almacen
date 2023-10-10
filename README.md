@@ -5,7 +5,7 @@ Diseño de website haciendo uso de tecnologias como CSS,HTML, JS, PHP, Ajax, jQu
 <h2>Integrantes</h2>
 <br>
 <ul>
-  <li> Irma Michelle Ayala vazquez</li>
+  <li> Irma Michelle Ayala vazquez <a href="https://github.com/Michelle-AV" ></a> </li>
    <li>Lizeth Guadalupe Rodriguez Rodriguez </li>
 </ul>
 
