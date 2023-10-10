@@ -11,7 +11,7 @@ Diseño e implementación de la lógica de programación (BackEnd) para optimiza
    <li>Gestión de productos en un almacén.</li>
    <li>Interfaz de usuario interactiva.</li>
 </ul>
-<br>
+
 <h2>Interfaz</h2>
 <img src="readmefiles/inicio.png">
 <h2>Tecnologias utilizadas</h2>
@@ -25,9 +25,9 @@ Diseño e implementación de la lógica de programación (BackEnd) para optimiza
 </ul>
 <h2>Contacto</h2>
 
-  <a href="https://www.linkedin.com/in/michelle-av">Irma Michelle Ayala Vazquez</a> <br>
+  <a href="https://www.linkedin.com/in/michelle-av" >Irma Michelle Ayala Vazquez</a> <br>
   <a href="https://www.linkedin.com/in/lizeth-rodriguez45">Lizeth Guadalupe Rodriguez Rodriguez</a>
-
+<img src="readmefiles/contact.png">
 <h2>Créditos</h2>
 <ul>
   <li>Dr. Christian Mauricio Castillo Estrada</li>
