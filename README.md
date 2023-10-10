@@ -24,10 +24,10 @@ fotito aqui jeje
   <li>MySQL</li>
 </ul>
 <h2>Contacto</h2>
-<ul>
-  <li>Irma Michelle Ayala vazquez </li>
-   <li>Lizeth Guadalupe Rodriguez Rodriguez<a href="https://www.linkedin.com/in/lizeth-rodriguez45"><img src="https://www.vectorlogo.zone/logos/linkedin/linkedin-tile.svg" alt="LinkedIn" width="15px" style="vertical-align: middle;"/></a> </li>
-</ul>
+
+  <p>Irma Michelle Ayala vazquez </p>
+   <p>Lizeth Guadalupe Rodriguez Rodriguez<a href="https://www.linkedin.com/in/lizeth-rodriguez45"><img src="https://www.vectorlogo.zone/logos/linkedin/linkedin-tile.svg" alt="LinkedIn" width="15px" style="vertical-align: middle;"/></a> </p>
+
 <h2>Créditos</h2>
 <ul>
   <li>Dr. Christian Mauricio Castillo Estrada</li>
