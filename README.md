@@ -26,7 +26,7 @@ fotito aqui jeje
 <h2>Contacto</h2>
 <ul>
   <li>Irma Michelle Ayala vazquez </li>
-   <li>Lizeth Guadalupe Rodriguez Rodriguez <a href="https://www.linkedin.com/in/lizeth-rodriguez45"><img src="https://www.vectorlogo.zone/logos/linkedin/linkedin-tile.svg" alt="LinkedIn" width="25px" style="margin-top:-30px"/></a> </li>
+   <li>Lizeth Guadalupe Rodriguez Rodriguez <a href="https://www.linkedin.com/in/lizeth-rodriguez45" style="margin-top:30px"><img src="https://www.vectorlogo.zone/logos/linkedin/linkedin-tile.svg" alt="LinkedIn" width="25px"/></a> </li>
 </ul>
 <h2>Créditos</h2>
 <ul>
