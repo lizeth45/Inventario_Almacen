@@ -1,6 +1,6 @@
 <h1>Inventario de Almacen-Unach✅</h1>
 Evaluacion parcial 1- Examen practico para la materia Desarrollo web.
-Diseño de website haciendo uso de tecnologias como CSS,HTML, JS, PHP, Ajax, jQuery.
+Diseño de website haciendo uso de tecnologias como CSS,HTML, JS, PHP, Ajax, jQuery y Mysql.
 <br>
 <h2>Integrantes</h2>
 <br>
