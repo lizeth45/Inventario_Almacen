@@ -10,4 +10,4 @@ Diseño de website haciendo uso de tecnologias como CSS,HTML, JS, PHP, Ajax, jQu
 </ul>
 
 <h2>URL</h2>
-<a href="https://almacenmr.000webhostapp.com/index.php"></a>
+<a href="https://almacenmr.000webhostapp.com/index.php">Click me</a>
