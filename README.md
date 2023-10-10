@@ -13,7 +13,7 @@ Diseño e implementación de la lógica de programación (BackEnd) para optimiza
 </ul>
 <br>
 <h2>Interfaz</h2>
-fotito aqui jeje
+<img src="readmefiles/inicio.png">
 <h2>Tecnologias utilizadas</h2>
 <ul>
   <li> HTML,CSS,JS </li>
