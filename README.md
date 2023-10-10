@@ -31,7 +31,7 @@ Diseño e implementación de la lógica de programación (BackEnd) para optimiza
   <a href="https://www.linkedin.com/in/michelle-av" >Irma Michelle Ayala Vazquez</a> <br>
   <a href="https://www.linkedin.com/in/lizeth-rodriguez45">Lizeth Guadalupe Rodriguez Rodriguez</a>
   <div align="center">
-    <img src="readmefiles/contacto.png">
+    <img src="readmefiles/contacto.png" style="width:500px; heigth:500px">
   </div>
   </div>  
 <h2>Créditos</h2>
