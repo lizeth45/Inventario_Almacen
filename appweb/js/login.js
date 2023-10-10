@@ -1,7 +1,7 @@
 $(document).ready(function(){
 	
 	// Listen to login button
-	$('#login').on('click', function(){
+	$('#btnSignIn').on('click', function(){
 		login();
 	});
 });
@@ -9,8 +9,8 @@ $(document).ready(function(){
 
 // Function to login a user
 function login(){
-	var loginUsername = $('#loginUsername').val();
-	var loginPassword = $('#loginPassword').val();
+	var loginUsername = $('#userName').val();
+	var loginPassword = $('#userPass').val();
 	
 	$.ajax({
 		url: 'controller/validar.php',
@@ -20,10 +20,10 @@ function login(){
 			loginPassword:loginPassword,
 		},
 		success: function(data){
-			var msg_alerta1 = '<div class="alert alert-success alert-dismissible fade show" role="alert"><button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>'+
+			var msg_alerta1 = '<div class="alert alert-success alert-dismissible fade show" style="width:338px; height:60px; font-size:13px" role="alert"><button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>'+
 			'Bienvenido</div>';
       
-			var msg_alerta2 = '<div class="alert alert-danger alert-dismissible fade show" role="alert"><button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>'+
+			var msg_alerta2 = '<div class="alert alert-danger alert-dismissible fade show" style="width:338px; height:60px; font-size:13px" role="alert"><button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>'+
 			'Nombre de usuario y/o contraseña incorrectos</div>';
 			
 			var jsonData = JSON.parse(data);

@@ -5,9 +5,7 @@ $(document).ready(function(){
 		if(validarCampos()){
 			register();
 		}else{
-			var msg_alerta = '<div class="alert alert-danger alert-dismissible fade show" role="alert"><button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>'+
-			'Llena todos los campos</div>';
-			$('#signinMessage').html(msg_alerta);	
+			alert("Ingresa todos los datos para poder registrarte.");
 		}
 
 	});
@@ -16,7 +14,7 @@ $(document).ready(function(){
 
 // Function to register a user
 function register(){
-	var nombre = $('#nombre').val();
+	var nombre = $('#nombreNew').val();
     var appat = $('#appat').val();
     var usuario = $('#usuario').val();
     var email = $('#email').val();
@@ -51,7 +49,7 @@ function register(){
 
 function validarCampos() {
     // Obtener los valores de los campos
-    var nombre = document.getElementById("nombre").value;
+    var nombre = document.getElementById("nombreNew").value;
     var appat = document.getElementById("appat").value;
     var usuario = document.getElementById("usuario").value;
     var email = document.getElementById("email").value;
@@ -81,8 +79,8 @@ document.getElementById("usuario").addEventListener("input", function () {
         },
         success: function (data) {
 			
-			var correctmsg = '<h6 style="color: green; font-size:13px; padding-top: 10px">Disponible </h6>';
-			var incorrectmsg = '<h6 style="color: red; font-size:13px; padding-top: 10px">*No disponible </h6>';
+			var correctmsg = '<h6 style="color: white; font-size:10px; font-weight: bolder; margin-top: -20px">Disponible </h6>';
+			var incorrectmsg = '<h6 style="color: rgb(170,0,0); font-size:10px; font-weight: bolder; margin-top: -20px" >No disponible </h6>';
 
 			var jsonData2 = JSON.parse(data);
             if (jsonData2.success == 1)
