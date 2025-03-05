@@ -1,7 +1,7 @@
 <?php
 function conectaDB() 
-{
-  $host = 'localhost'; //url del webhost
+{ 
+  	$host = 'localhost'; //url del webhost
 	$user = 'root';  //nombre de Usuario que proporciona 000webhost
 	$pass = '';
 
