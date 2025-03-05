@@ -1,4 +1,3 @@
-
 <?php
 	include('../conexion.php');
 	$link = conectaDB();
@@ -26,4 +25,3 @@
     }
 
 ?>
-
