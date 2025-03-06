@@ -42,7 +42,7 @@
                                 <a class="nav-link" href="#signIn">Sign in</a>
                             </li> -->
                             <li class="nav-item">
-                                <a class="btn-navbar" href="#signUp">Register</a>
+                                <a class="btn-navbar" href="#signUp">Registro</a>
                             </li>
                         </ul>
                     </div>
@@ -57,14 +57,14 @@
                             <div class="col-lg-8 col-md-4"> <!-- Inicio Columna titulo-->
 
                                 <div class="box-container"> <!-- Inicio Contenedor texto + parrafo -->
-                                    <h1 class="home-heading"> <span class="home-span">Bienvenido</span> al Almacen <span class="home-span">CityUnach</span></h1>
+                                    <h1 class="home-heading"> <span class="home-span">Bienvenido</span> al Almacén <span class="home-span">CityUnach</span></h1>
                                     <br>
                                     <div class="row"> <!--Inicio fila-->
                                         <div class="col-lg-11 col-md-5"> <!--Inicio columna-->
                                             <p class="home-para">
                                                 Diseño e implementación de la lógica de programación <span class="para-span">(BackEnd)</span>
-                                                para optimizar el correcto funcionamiento de una aplicación web; la cual permite gestionar <span class="para-span">gestionar un inventario básico</span>
-                                                de productos del Almacen CityUnach.
+                                                para optimizar el correcto funcionamiento de una aplicación web; la cual permite <span class="para-span">gestionar un inventario básico</span>
+                                                de productos del Almacén CityUnach.
                                             </p>
                                         </div> <!--Final columna-->
                                     </div> <!--Final fila-->
@@ -107,10 +107,10 @@
                                         con una gran pasión compartida por la tecnología y una innata dedicación a la resolución de problemas de manera innovadora.
                                     </p>
                                     <div class="parafros">
-                                        <h5 class="para-about-text"> Universidad Autonoma de Chiapas</h5>
+                                        <h5 class="para-about-text"> Universidad Autónoma de Chiapas</h5>
                                         <p class="about-nombres"> <span class="puesto">Backend: </span>Lizeth Guadalupe Rodríguez Rodríguez</p>
                                         <p class="about-nombres"> <span class="puesto">Frontend: </span>Irma Michelle Ayala Vázquez</p>
-                                        <a href="https://github.com/lizeth45/Inventario_Almacen" class="link-repo">Repostorio</a>
+                                        <a href="https://github.com/lizeth45/Inventario_Almacen" class="link-repo">Repositorio</a>
                                     </div>
                                 </div>
                             </div> <!--final content-about -->

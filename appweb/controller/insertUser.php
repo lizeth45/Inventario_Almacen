@@ -13,12 +13,11 @@
         $result = mysqli_query($link,$sql);
 
         if($result){
-            echo json_encode(array('success' => 1));
             //Inicia la sesion
             session_start();
             $_SESSION['login'] = "true";
             $_SESSION['nomusuario'] = $nombre . " " . $appat;
-            
+            echo json_encode(array('success' => 1));
         }else{
 			echo json_encode(array('success' => 0)); //Esto se envia al success del ajax js
 			//http_response_code(500); // Código de error 500: Internal Server Error --> al error del ajax (no esta en uso)

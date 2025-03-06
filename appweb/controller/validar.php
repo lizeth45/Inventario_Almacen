@@ -6,7 +6,7 @@
 		$nomUser = $_GET['loginUsername'];
 		$userPass = $_GET['loginPassword'];
 
-		$sql="SELECT COUNT(*), nombre, ap_pat FROM USUARIOS WHERE nom_usr ='$nomUser' and pass ='$userPass'";
+		$sql="SELECT COUNT(*), nombre, ap_pat FROM usuarios WHERE nom_usr ='$nomUser' and pass ='$userPass'";
 		$result = mysqli_query($link,$sql);
 
 		$respuesta = 0;
