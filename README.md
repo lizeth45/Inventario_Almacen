@@ -42,4 +42,4 @@ Diseño e implementación de la lógica de programación (BackEnd) para optimiza
 Codigo inicial proporcionado a los alumnos para realizar la actividad. Click <a href="https://github.com/christianmce/unach/tree/master/desarrollo_web/appweb">aqui</a>
 
 <h2>URL</h2>
-<a href="https://almacenmr.000webhostapp.com/index.php">CityUnach</a>
+<a href="http://almacencityunach.atwebpages.com/">CityUnach</a>
